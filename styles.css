@@ -1,8 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1.4;
     background-color: #f0f0f0; /* Light gray background */
-    padding: 20px;
+    padding: 10px;
     margin: 0;
 }
 
@@ -11,7 +11,7 @@ body {
     max-width: 210mm; /* A4 size width */
     min-height: 297mm; /* A4 size height */
     margin: auto;
-    padding: 20px;
+    padding: 15px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -20,10 +20,10 @@ body {
 .header {
     text-align: center;
     background-color: #2477a3; /* Background color for the header */
-    padding: 20px;
+    padding: 15px;
     color: #fff;
     border-radius: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .photo {
@@ -40,16 +40,17 @@ h1 {
     color: #fff;
     font-weight: 300; /* Light font weight */
     margin: 10px 0;
+    font-size: 22px;
 }
 
 .profession {
-    font-size: 18px;
+    font-size: 16px;
     text-transform: uppercase;
     margin: 10px 0;
 }
 
 .contact-info {
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 10px;
 }
 
@@ -63,12 +64,13 @@ h2 {
     border-bottom: 2px solid #2477a3; /* Underline effect */
     display: inline-block;
     padding-bottom: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-weight: 300; /* Light font weight */
+    font-size: 18px;
 }
 
 .section {
-    margin-bottom: 40px;
+    margin-bottom: 15px;
 }
 
 .timeline {
@@ -90,9 +92,9 @@ h2 {
 }
 
 .timeline-item {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     position: relative;
-    padding-left: 150px; /* Ensure space for the date */
+    padding-left: 130px; /* Ensure space for the date */
 }
 
 .timeline-date {
@@ -102,13 +104,13 @@ h2 {
     text-align: right;
     color: #333;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
     top: 0;
 }
 
 .timeline-content {
     margin-left: 0;
-    padding: 15px 20px;
+    padding: 10px 15px;
     background-color: #e9ecef; /* Light gray background for content */
     border-left: 2px solid #2477a3;
     position: relative;
@@ -133,11 +135,13 @@ h2 {
     margin-top: 0;
     color: #333;
     font-weight: 300; /* Light font weight */
+    font-size: 16px;
 }
 
 .timeline-content p, .timeline-content ul {
     margin: 5px 0 0;
     color: #666;
+    font-size: 14px;
 }
 
 .timeline-content ul {
@@ -147,7 +151,7 @@ h2 {
 
 a {
     color: #2477a3;
-    font-size: 16px;
+    font-size: 14px;
     transition: font-weight 0.3s ease-in-out, transform 0.3s ease-in-out;
     display: inline-block;
     font-weight: 100;
