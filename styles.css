@@ -157,3 +157,16 @@ a:hover {
     transform: scale(1.01);
     font-weight: 400;
 }
+
+@media print {
+    /* Force a page break before the element */
+    .page-break {
+        page-break-before: always;
+    }
+}
+
+
+.description {
+    text-align:justify;
+    padding:2px;
+}
