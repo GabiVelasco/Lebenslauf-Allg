@@ -1,7 +1,9 @@
+/* styles-web.css */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.4;
-    background-color: #f0f0f0; /* Light gray background */
+    background-color: #f0f0f0;
     padding: 10px;
     margin: 0;
 }
@@ -19,8 +21,8 @@ body {
 
 .header {
     text-align: center;
-    background-color: #2477a3; /* Background color for the header */
-    padding: 15px;
+    background-color: #2477a3;
+    padding: 10px;
     color: #fff;
     border-radius: 8px;
     margin-bottom: 15px;
@@ -29,54 +31,110 @@ body {
 .photo {
     display: block;
     margin: 0 auto;
-    width: 150px;
-    height: 150px;
+    width: 120px; /* Adjusted size */
+    height: 120px; /* Adjusted size */
     border-radius: 50%;
-    border: 4px solid #fff; /* White border around the photo */
-    object-fit: cover; /* Maintain aspect ratio */
+    border: 4px solid #fff;
+    object-fit: cover;
 }
 
 h1 {
     color: #fff;
-    font-weight: 300; /* Light font weight */
-    margin: 10px 0;
-    font-size: 22px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    margin: 5px 0;
+    font-size: 20px; /* Adjusted size */
 }
 
 .profession {
-    font-size: 16px;
+    font-size: 14px; /* Adjusted size */
     text-transform: uppercase;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .contact-info {
-    font-size: 12px;
-    margin-top: 10px;
+    font-size: 12px; /* Adjusted size */
+    margin: 0 auto;
+    padding: 5px;
+
+ 
 }
+
 
 .contact-info a {
     color: #fff;
     text-decoration: underline;
+    font-size: 12px; /* Adjusted size */
+}
+
+.flex, .flex a {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    text-decoration:none;
+    font-size: 12px;
 }
 
 h2 {
-    color: #2477a3; /* Teal color for section titles */
-    border-bottom: 2px solid #2477a3; /* Underline effect */
+    color: #2477a3;
+    border-bottom: 2px solid #2477a3;
     display: inline-block;
-    padding-bottom: 5px;
-    margin-bottom: 15px;
-    font-weight: 300; /* Light font weight */
-    font-size: 18px;
+    padding-bottom: 2px; /* Adjusted size */
+    margin-bottom: 10px; /* Adjusted size */
+    font-weight: 300;
+    font-size: 16px; /* Adjusted size */
 }
 
 .section {
-    margin-bottom: 10px;
+    margin-bottom: 7px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px; /* Space between columns */
+}
+
+.column {
+    /* Flex item properties for responsive layout */
+}
+
+.description {
+    width: 60%; /* Wider width for description */
+    text-align:justify;
+    
+}
+
+.sprachen {
+    width: 35%; /* Slightly smaller width for sprachen */
+    display: flex;
+    justify-content: flex-end; /* Aligns content to the right */
+    margin: auto;
+}
+
+.description, .sprachen {
+    margin: 0;
+}
+
+.description p, .sprachen ul {
+    margin: 0;
+    color: #666;
+    font-size: 12px; /* Adjusted size */
+}
+
+.sprachen ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sprachen li {
+    margin: 5px 0;
 }
 
 .timeline {
     position: relative;
     margin: 0;
-    padding: 0;
+    padding: 2px;
     list-style: none;
 }
 
@@ -85,33 +143,32 @@ h2 {
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 2px;
-    background: #2477a3; /* Teal color for the timeline line */
+    width: 1px; /* Adjusted size */
+    background: #2477a3;
     left: 20px;
-    margin-left: -1.5px;
 }
 
 .timeline-item {
-    margin-bottom: 20px;
+    margin-bottom: 10px; /* Adjusted size */
     position: relative;
-    padding-left: 130px; /* Ensure space for the date */
+    padding-left: 120px; /* Adjusted size */
 }
 
 .timeline-date {
     position: absolute;
-    left: -120px; /* Positioned left of the timeline line */
-    width: 100px;
+    left: -110px; /* Adjusted size */
+    width: 90px; /* Adjusted size */
     text-align: right;
     color: #333;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 10px; /* Adjusted size */
     top: 0;
 }
 
 .timeline-content {
     margin-left: 0;
-    padding: 10px 15px;
-    background-color: #e9ecef; /* Light gray background for content */
+    padding: 5px 10px; /* Adjusted size */
+    background-color: #e9ecef;
     border-left: 2px solid #2477a3;
     position: relative;
     border-radius: 4px;
@@ -123,35 +180,36 @@ h2 {
     display: block;
     position: absolute;
     top: 10px;
-    left: -10px;
-    width: 16px;
-    height: 16px;
+    left: -8px; /* Adjusted size */
+    width: 14px; /* Adjusted size */
+    height: 14px; /* Adjusted size */
     border-radius: 50%;
-    background: #2477a3; /* Teal color for the circle */
+    background: #2477a3;
     border: 2px solid #fff;
 }
 
 .timeline-content h3 {
     margin-top: 0;
     color: #333;
-    font-weight: 300; /* Light font weight */
-    font-size: 16px;
+    font-weight: 300;
+    font-size: 14px; /* Adjusted size */
 }
 
 .timeline-content p, .timeline-content ul {
     margin: 2px 0 0;
     color: #666;
-    font-size: 14px;
+    font-size: 12px; /* Adjusted size */
+  
 }
 
 .timeline-content ul {
-    padding-left: 20px;
+    padding-left: 15px; /* Adjusted size */
     list-style-type: disc;
 }
 
 a {
     color: #2477a3;
-    font-size: 14px;
+    font-size: 12px; /* Adjusted size */
     transition: font-weight 0.3s ease-in-out, transform 0.3s ease-in-out;
     display: inline-block;
     font-weight: 100;
@@ -162,37 +220,54 @@ a:hover {
     font-weight: 400;
 }
 
+.hobbies {
+    margin-top: 0px; /* Adjusted size */
+}
+
+.hobbies ul {
+    padding-left: 10px; /* Adjusted padding */
+}
+
+/* Print styles */
 @media print {
-    /* Force a page break before the element */
     .page-break {
         page-break-before: always;
     }
 }
 
-
-.description {
-    text-align:justify;
-    padding: 0 10px;
-    margin:0 auto;
+.block-sprachen { text-align: end;}
+.skills h3 {
+    font-size: 16px;
+    font-weight: 200;
+    padding: 0;
+    margin: 0 auto;
 }
 
-.sprachen {
-    
-    margin:0 auto;
-}
-
-.sprachen p, .sprachen li, .sprachen ul, .sprachen span {
-    margin: 0;
+.skills p, ul {
+    font-size: 10px; /* Adjusted size */
     color: #666;
-    font-size: 14px;
-    
+    padding: 0 0 5px 20px ;
+    margin: 0 auto;
     
 }
 
-.description p, .description li, .description ul, .description span {
-    margin: 0;
-    color: #666;
-    font-size: 14px;
-    padding:0;
+.skills {
+    padding: 0px;
+    margin: 0 auto;
+}
+
+h3, h2{
+    padding: 1px;
+    margin: 0 auto;
     
 }
+
+.maintopic{
+    margin: 10px auto;
+    
+}
+
+.description p, .hobbies ul {
+    margin-top: 1px;
+}
+
