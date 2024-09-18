@@ -49,23 +49,52 @@ h1 {
 .profession {
     font-size: 14px; /* Adjusted size */
     text-transform: uppercase;
-    margin: 5px 0;
+    margin: 0px 0 10px 0;
+    letter-spacing:  3px;
 }
+
 
 .contact-info {
     font-size: 12px; /* Adjusted size */
     margin: 0 auto;
     padding: 5px;
+    left: 0;
+    
 
  
 }
+
+.img-contact-info {
+    margin: 0 auto;
+    padding-left: 70px ;
+    right: 0;
+    width:25px;
+
+}
+
+.img-email-info  {}
 
 
 .contact-info a {
     color: #fff;
     text-decoration: underline;
     font-size: 12px; /* Adjusted size */
+    padding: 0;
+    margin: 0 auto !important;
+    width: 100%;
 }
+
+.contact-info p {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 12px; /* Adjusted size */
+    margin: 0 auto !important;
+    padding: 0 ;
+    right: 0;
+    width: 100%;
+}
+
+
 
 .flex, .flex a {
     display: flex;
@@ -73,6 +102,12 @@ h1 {
     color: #fff;
     text-decoration:none;
     font-size: 12px;
+    width:100%;
+    padding:0;
+    justify-content: space-between;
+    margin: 0 auto;
+
+
 }
 
 h2 {
@@ -110,7 +145,7 @@ h2 {
     display: flex;
     justify-content: flex-end; /* Aligns content to the right */
     margin: auto;
-    font-family: 'Noto Color Emoji', sans-serif;
+    font-family: 'Noto Color Emoji', sans-serif !important;
 
 }
 
