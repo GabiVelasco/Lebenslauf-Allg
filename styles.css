@@ -313,5 +313,7 @@ h3, h2{
     font-weight: bold;
     font-size: 14px;
     font-family: 'Noto Color Emoji', sans-serif !important;
+    display: flex;
+
 }
 
