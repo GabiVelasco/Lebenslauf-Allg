@@ -300,11 +300,18 @@ h3, h2{
 }
 
 .maintopic{
-    margin: 10px auto;
+    margin: 5px auto;
     
 }
 
 .description p, .hobbies ul {
     margin-top: 1px;
+}
+
+.ue-bürgerin {
+    color:  #2477a3;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Noto Color Emoji', sans-serif !important;
 }
 
